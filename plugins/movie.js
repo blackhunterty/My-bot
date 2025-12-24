@@ -1,6 +1,6 @@
 const { cmd } = require("../lib/command");
 const axios = require("axios");
-const config = require('./settings');
+const config = require('../settings');
 const NodeCache = require("node-cache");
 
 const movieCache = new NodeCache({ stdTTL: 100, checkperiod: 120 });
