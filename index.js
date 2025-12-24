@@ -15,7 +15,7 @@ const {
     generateWAMessageFromContent,
     prepareWAMessageMedia,
     proto
-} = require('baileys-x')
+} = require('@whiskeysockets/baileys')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, openai, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
 const P = require('pino')
